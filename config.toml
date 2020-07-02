@@ -1,0 +1,43 @@
+# The URL the site will be built for
+base_url = "https://pauker.org"
+
+title = "grant pauker"
+theme="sam"
+
+compile_sass = true
+
+highlight_code = true
+
+build_search_index = false
+
+check_external_links = true
+
+taxonomies = [
+    {name = "tags", rss = true}
+]
+
+[extra]
+show_word_count = true
+show_reading_time = true
+
+date_format = "%a %b %e, %Y"
+
+home = "home"
+
+sam_menu = [
+    { text = "about", link = "/about" },
+    { text = "contact", link = "/contact" },
+    { text = "fun", link = "https://0x0.st/K0" },
+]
+
+[extra.sam_footer]
+text = "powered by zola and caddy 2."
+
+
+[extra.link_preview]
+title = "grant pauker"
+url = "https://pauker.org"
+thumbnail = "https://pauker.org/thumbnail.png"
+thumbnail_width = "1200"
+thumbnail_height = "630"
+description = "senior at la jolla high school"
