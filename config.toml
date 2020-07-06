@@ -26,12 +26,13 @@ home = "home"
 
 sam_menu = [
     { text = "about", link = "/about" },
-    { text = "contact", link = "/contact" },
+    { text = "projects", link = "/projects" },
     { text = "fun", link = "https://0x0.st/K0" },
+    { text = "contact", link = "/contact" },
 ]
 
 [extra.sam_footer]
-text = "powered by zola and caddy 2."
+text = "powered by zola and caddy 2"
 
 
 [extra.link_preview]
@@ -41,3 +42,10 @@ thumbnail = "https://pauker.org/thumbnail.png"
 thumbnail_width = "1200"
 thumbnail_height = "630"
 description = "senior at la jolla high school"
+
+[extra.logo]
+url = "https://pauker.org/pebble.png"
+width = "60"
+height = "60"
+big_width = "100"
+big_height = "100"

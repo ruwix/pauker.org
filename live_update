@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+for f in themes/sam/templates/* themes/sam/sass/*; do echo $f; done | entr ./deploy
+
